@@ -12,7 +12,7 @@ from app.main import is_isogram
         ("", True),
     ],
 )
-def correct_result(
+def test_correct_result(
         word: str,
         expected: bool
 ) -> None:
